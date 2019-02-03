@@ -2,7 +2,6 @@ const rp = require( 'request-promise' );
 const $ = require( 'cheerio' );
 const fs = require( 'fs' );
 const https = require( 'https' );
-const path = require( 'path' );
 
 // URL of website you want to scrape
 const options = {
