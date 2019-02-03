@@ -4,8 +4,9 @@ const fs = require( 'fs' );
 const https = require( 'https' );
 const path = require( 'path' );
 
+// URL of website you want to scrape
 const options = {
-    uri: 'https://conanexiles.gamepedia.com/Category:Armor_icons',
+    uri: '',
     rejectUnauthorized: false
 };
 
